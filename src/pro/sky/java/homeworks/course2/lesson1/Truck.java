@@ -6,12 +6,13 @@ public class Truck extends TransportWithEngine {
         super(modelName, wheelsCount);
     }
 
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
-
-
     public void checkTrailer() {
         System.out.println("Проверяем прицеп");
+    }
+
+    @Override
+    public void service() {
+        super.service();
+        checkTrailer();
     }
 }

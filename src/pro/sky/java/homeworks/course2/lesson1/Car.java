@@ -6,8 +6,4 @@ public class Car extends TransportWithEngine {
         super(modelName, wheelsCount);
     }
 
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
-    }
-
 }
