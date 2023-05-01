@@ -1,6 +1,6 @@
 package pro.sky.java.homeworks.course2.lesson1;
 
-public class Truck extends Transport {
+public class Truck extends TransportWithEngine {
 
     public Truck(String modelName, int wheelsCount) {
         super(modelName, wheelsCount);
@@ -10,9 +10,6 @@ public class Truck extends Transport {
         System.out.println("Меняем покрышку");
     }
 
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель");
-    }
 
     public void checkTrailer() {
         System.out.println("Проверяем прицеп");
