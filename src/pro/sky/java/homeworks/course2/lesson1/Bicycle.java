@@ -5,4 +5,8 @@ public class Bicycle extends Transport {
         super(modelName, wheelsCount);
     }
 
+    @Override
+    public String toString() {
+        return "Велосипед " + getModelName();
+    }
 }

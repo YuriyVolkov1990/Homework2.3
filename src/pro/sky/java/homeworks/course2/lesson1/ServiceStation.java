@@ -6,6 +6,7 @@ public class ServiceStation {
     }
     public void  checkAll(Serviceable[] serviceables) {
         for (Serviceable serviceable : serviceables) {
+            System.out.println("Обслуживаем "+serviceable.toString());
             serviceable.service();
         }
     }

@@ -15,4 +15,9 @@ public class Truck extends TransportWithEngine {
         super.service();
         checkTrailer();
     }
+
+    @Override
+    public String toString() {
+        return "Грузовик " + getModelName();
+    }
 }

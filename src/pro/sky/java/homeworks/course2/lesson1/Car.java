@@ -6,4 +6,8 @@ public class Car extends TransportWithEngine {
         super(modelName, wheelsCount);
     }
 
+    @Override
+    public String toString() {
+        return "Автомомбиль " + getModelName();
+    }
 }
