@@ -22,6 +22,8 @@ public abstract class Transport implements Serviceable {
 
     @Override
     public void service() {
-        updateTyre();
+        for (int i = 0; i < wheelsCount; i++) {
+            updateTyre();
+        }
     }
 }
