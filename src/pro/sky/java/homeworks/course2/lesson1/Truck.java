@@ -18,6 +18,6 @@ public class Truck extends TransportWithEngine {
 
     @Override
     public String toString() {
-        return "Грузовик " + getModelName();
+        return "Грузовик " + getModelName() + ". Количесво колёс: " + getWheelsCount();
     }
 }

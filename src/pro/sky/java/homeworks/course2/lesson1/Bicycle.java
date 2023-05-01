@@ -7,6 +7,6 @@ public class Bicycle extends Transport {
 
     @Override
     public String toString() {
-        return "Велосипед " + getModelName();
+        return "Велосипед " + getModelName() + ". Количесво колёс: " + getWheelsCount();
     }
 }

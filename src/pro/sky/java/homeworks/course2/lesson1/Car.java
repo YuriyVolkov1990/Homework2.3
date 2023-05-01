@@ -8,6 +8,6 @@ public class Car extends TransportWithEngine {
 
     @Override
     public String toString() {
-        return "Автомомбиль " + getModelName();
+        return "Автомомбиль " + getModelName() + ". Количесво колёс: " + getWheelsCount();
     }
 }
